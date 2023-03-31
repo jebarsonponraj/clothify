@@ -26,15 +26,16 @@ import {
 import { Category } from '../../store/categories/category.types';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDDU4V-_QV3M8GyhC9SVieRTDM4dbiT0Yk',
-  authDomain: 'crwn-clothing-db-98d4d.firebaseapp.com',
-  projectId: 'crwn-clothing-db-98d4d',
-  storageBucket: 'crwn-clothing-db-98d4d.appspot.com',
-  messagingSenderId: '626766232035',
-  appId: '1:626766232035:web:506621582dab103a4d08d6',
-};
-
-const firebaseApp = initializeApp(firebaseConfig);
+    apiKey: "AIzaSyDKWJ-q_tqaq91RXM_WIS7W5GKKgKT3eDA",
+    authDomain: "clothify-website.firebaseapp.com",
+    projectId: "clothify-website",
+    storageBucket: "clothify-website.appspot.com",
+    messagingSenderId: "714123461033",
+    appId: "1:714123461033:web:bc2088fd37badc723c84b8"
+  };
+  
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
 
 const googleProvider = new GoogleAuthProvider();
 
